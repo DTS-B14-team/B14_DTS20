@@ -24,22 +24,26 @@
   /*Extrea 2*/
     .extra2 {
       float: none;
+      height: 500px;
     }
     .extra2-item img {
       width: 750px;
       height: 400px;
       text-align: center;
+      margin-left: 120px;
     }
     .extra2-text {
-      max-width: 70%;
-      padding-right: 70px;
+      max-width: 80%;
+      padding-right: 170px;
       padding-top: 0;
+      margin-left: 120px;
+      text-align: left;
     }
     .extra2-text h5 {
       font-size: 15px;
     }
     .extra2-bag {
-      height: 600px;
+      height: 1000px;
       padding: 10px 10px;
       text-align: center;
     }
@@ -49,12 +53,14 @@
       margin-left: 150px;
       display: block;
     }
-    .contact h3 {
-      text-align: center;
-    }
+
     .contact p {
       text-align: left;
+      margin-left: 150px;
     }
+    .contact-form {
+     float: none;
+
 }
 
 
@@ -98,8 +104,12 @@
   }
 
 /*ekstra 2*/
+  .extra2 {
+    float: none;
+    height: 500px;
+  }
   .extra2-bag {
-    height: 600px;
+    height: 1000px;
     padding: 0px;
   }
   .extra2-text {
@@ -110,6 +120,13 @@
     background-color: rgba(0, 0, 0, 0.8);
     color:white;
     padding: 8px 5px;
+  }
+
+  .extra2-item img {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-left: 50px;
   }
   .contact {
     float:none;
@@ -123,6 +140,7 @@
 
   /*footer*/
   footer {
-    text-align: center;
+   width: 900px;
   }
+
 }
