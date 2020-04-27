@@ -257,6 +257,8 @@ a {
 /*Ask*/
 .contact-form {
   float: right;
+  margin-right: 80px;
+  margin-top: 35px;
 }
 .contact-form span {
   color: red;
